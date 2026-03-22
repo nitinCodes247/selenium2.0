@@ -19,9 +19,6 @@ public class HomePage extends BasePage {
     @FindBy(css = "a[href*='mobile.html']")
     WebElement mobilePage;
 
-    @FindBy(xpath = "//div[@class='page-title']/h2")
-    WebElement pageTile;
-
     public void landOnHomePage(){
         driver.get(url);
     }
@@ -29,9 +26,5 @@ public class HomePage extends BasePage {
     public MobilePage goToMobilePage(){
         mobilePage.click();
         return new MobilePage(driver);
-    }
-
-    public String getPageTitle(){
-        return pageTile.getText();
     }
 }

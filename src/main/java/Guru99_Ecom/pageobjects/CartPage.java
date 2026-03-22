@@ -19,11 +19,14 @@ public class CartPage extends BasePage {
 
     @FindBy(css = "td.product-cart-info")
     List<WebElement> productInfos;
+    @FindBy(css = ".cart-footer-actions")
+    WebElement cartFooterSection;
 
     By productNameLocator = By.cssSelector(".product-name");
     By qtyInput = By.xpath("following-sibling::td[@class='product-cart-actions']/input");
     By qtyUpdate = By.xpath("following-sibling::td[@class='product-cart-actions']/button");
     By qtyErrorMessage = By.cssSelector(".item-msg");
+    By emptyCart = By.id("empty_cart_button");
 
     public void updateQuantity(String productName, String qty){
         for(WebElement e: productInfos){
@@ -45,6 +48,11 @@ public class CartPage extends BasePage {
             }
         }
         throw new RuntimeException("Product Not available in Cart: "+productName);
+    }
+
+    public String emptyCart(){
+        cartFooterSection.findElement(emptyCart).click();
+        return getPageTitle();
     }
 
 }

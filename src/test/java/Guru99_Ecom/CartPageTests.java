@@ -20,5 +20,8 @@ public class CartPageTests extends BaseTest {
         String qtyErrorMessage = cartPage.getQtyErrorMessage(productName);
         String expectedErrorMessage = "* The maximum quantity allowed for purchase is 500.";
         Assert.assertEquals(qtyErrorMessage,expectedErrorMessage);
+
+        String expectedEmptyCartMessage = "SHOPPING CART IS EMPTY";
+        Assert.assertEquals(cartPage.emptyCart(), expectedEmptyCartMessage);
     }
 }

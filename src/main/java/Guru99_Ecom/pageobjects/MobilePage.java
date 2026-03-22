@@ -17,10 +17,6 @@ public class MobilePage extends BasePage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
-    @FindBy(css = ".page-title h1")
-    WebElement pageTitle;
-
     @FindBy(xpath = "(//select[@title='Sort By'])[1]")
     WebElement sortByMenu;
 
@@ -30,10 +26,6 @@ public class MobilePage extends BasePage {
     By productNameLocator = By.cssSelector(".product-name");
     By productPlpPrice = By.cssSelector(".price");
     By atcButtonLocator = By.cssSelector(".actions button");
-
-    public String getPageTitle(){
-        return pageTitle.getText();
-    }
 
     public void sotByOption(String option){
         Select options = new Select(sortByMenu);

@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="Selenium Practice">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/ProductDetailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MaxQuantityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/VerifyProductCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CartPageTests.maxAllowedQuantity" />
+        <item itemvalue="TestNG.MobileListPageTests" />
         <item itemvalue="TestNG.CartPageTests" />
         <item itemvalue="TestNG.MobileListPageTests.verifyNameSortingMobilePage" />
         <item itemvalue="TestNG.MobileListPageTests.verifyProductCost" />
-        <item itemvalue="TestNG.MobileListPageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +212,7 @@
       <workItem from="1772306449264" duration="2830000" />
       <workItem from="1772471431031" duration="10670000" />
       <workItem from="1772984617239" duration="2807000" />
-      <workItem from="1773947208187" duration="19996000" />
+      <workItem from="1773947208187" duration="21099000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium Practice">
       <option name="closed" value="true" />
@@ -232,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774184412842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Selenium Practice">
+      <option name="closed" value="true" />
+      <created>1774201572011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774201572011</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
