@@ -4,28 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrowserNavs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DropDowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EcomApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MaxQuantityCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/VerifyProductCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HttpVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocatorsEg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ScrollingInSelenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumIntroduction.java" afterDir="false" />
+    <list default="true" id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="Selenium Practice">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/ProductDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/utils/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MaxQuantityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/VerifyProductCost.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +56,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ActionsDemo.actionClassSelenium.executor": "Run",
     "TestNG.BrowserNavs.windowActivities.executor": "Run",
+    "TestNG.CartPageTests.executor": "Profiler#1",
+    "TestNG.CartPageTests.maxAllowedQuantity.executor": "Run",
     "TestNG.DropDowns.dropDownPractice (1).executor": "Run",
     "TestNG.DropDowns.dropDownPractice.executor": "Run",
     "TestNG.DropDowns.endToEnd.executor": "Run",
@@ -74,13 +72,16 @@
     "TestNG.LocatorsPractice.idLocator.executor": "Run",
     "TestNG.LocatorsPractice.locators.executor": "Run",
     "TestNG.MobileListPage.verifyNameSortingMobilePage.executor": "Run",
+    "TestNG.MobileListPageTests.executor": "Run",
+    "TestNG.MobileListPageTests.verifyNameSortingMobilePage.executor": "Run",
+    "TestNG.MobileListPageTests.verifyProductCost.executor": "Debug",
     "TestNG.RelativeLocators.relativeLocatorsExample.executor": "Run",
     "TestNG.RelativeLocatorsEg.executor": "Run",
     "TestNG.RelativeLocatorsEg.relativeLocatorsExample.executor": "Run",
     "TestNG.ScrollingInSelenium.scrolling.executor": "Run",
     "TestNG.SeleniumIntroduction.chromeInvoke.executor": "Run",
     "TestNG.SeleniumIntroduction.executor": "Run",
-    "TestNG.VerifyProductCost.verifyProductCost.executor": "Debug",
+    "TestNG.VerifyProductCost.verifyProductCost.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -96,8 +97,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.VerifyProductCost.verifyProductCost">
-    <configuration name="MobileListPage.verifyNameSortingMobilePage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CartPageTests.maxAllowedQuantity">
+    <configuration name="CartPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +107,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPage" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.CartPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartPageTests.maxAllowedQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99_Ecom" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.CartPageTests" />
+      <option name="METHOD_NAME" value="maxAllowedQuantity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileListPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99_Ecom" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileListPageTests.verifyNameSortingMobilePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guru99_Ecom.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99_Ecom" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
       <option name="METHOD_NAME" value="verifyNameSortingMobilePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -115,42 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeLocatorsEg" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium2.0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocatorsEg" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelativeLocatorsEg.relativeLocatorsExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium2.0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocatorsEg" />
-      <option name="METHOD_NAME" value="relativeLocatorsExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelativeLocators.relativeLocatorsExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium2.0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
-      <option name="METHOD_NAME" value="relativeLocatorsExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyProductCost.verifyProductCost" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MobileListPageTests.verifyProductCost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +177,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.VerifyProductCost" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
       <option name="METHOD_NAME" value="verifyProductCost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -170,16 +188,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyProductCost.verifyProductCost" />
-        <item itemvalue="TestNG.MobileListPage.verifyNameSortingMobilePage" />
-        <item itemvalue="TestNG.RelativeLocatorsEg" />
-        <item itemvalue="TestNG.RelativeLocatorsEg.relativeLocatorsExample" />
-        <item itemvalue="TestNG.RelativeLocators.relativeLocatorsExample" />
+        <item itemvalue="TestNG.CartPageTests.maxAllowedQuantity" />
+        <item itemvalue="TestNG.CartPageTests" />
+        <item itemvalue="TestNG.MobileListPageTests.verifyNameSortingMobilePage" />
+        <item itemvalue="TestNG.MobileListPageTests.verifyProductCost" />
+        <item itemvalue="TestNG.MobileListPageTests" />
       </list>
     </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
-    <option name="lastUrl" value="https://live.techpanda.org/index.php/mobile/sony-xperia.html" />
+    <option name="lastUrl" value="https://live.techpanda.org/index.php/checkout/cart/" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -204,8 +222,17 @@
       <workItem from="1772306449264" duration="2830000" />
       <workItem from="1772471431031" duration="10670000" />
       <workItem from="1772984617239" duration="2807000" />
-      <workItem from="1773947208187" duration="6557000" />
+      <workItem from="1773947208187" duration="19996000" />
     </task>
+    <task id="LOCAL-00001" summary="Selenium Practice">
+      <option name="closed" value="true" />
+      <created>1774184412842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774184412842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,5 +240,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Selenium Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Practice" />
   </component>
 </project>
