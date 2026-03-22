@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BrowserNavs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DropDowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EcomApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MaxQuantityCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/VerifyProductCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HttpVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RelativeLocatorsEg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScrollingInSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumIntroduction.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39cjkigQ6LMv4wKYPx2dDwML3iY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.ActionsDemo.actionClassSelenium.executor": "Run",
+    "TestNG.BrowserNavs.windowActivities.executor": "Run",
+    "TestNG.DropDowns.dropDownPractice (1).executor": "Run",
+    "TestNG.DropDowns.dropDownPractice.executor": "Run",
+    "TestNG.DropDowns.endToEnd.executor": "Run",
+    "TestNG.DropDowns.executor": "Run",
+    "TestNG.EcomApp.addToCart.executor": "Run",
+    "TestNG.Frames.framesControl.executor": "Run",
+    "TestNG.HttpVerification.httpVerify.executor": "Run",
+    "TestNG.LocatorsPractice.executor": "Run",
+    "TestNG.LocatorsPractice.idLocator.executor": "Run",
+    "TestNG.LocatorsPractice.locators.executor": "Run",
+    "TestNG.MobileListPage.verifyNameSortingMobilePage.executor": "Run",
+    "TestNG.RelativeLocators.relativeLocatorsExample.executor": "Run",
+    "TestNG.RelativeLocatorsEg.executor": "Run",
+    "TestNG.RelativeLocatorsEg.relativeLocatorsExample.executor": "Run",
+    "TestNG.ScrollingInSelenium.scrolling.executor": "Run",
+    "TestNG.SeleniumIntroduction.chromeInvoke.executor": "Run",
+    "TestNG.SeleniumIntroduction.executor": "Run",
+    "TestNG.VerifyProductCost.verifyProductCost.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.VerifyProductCost.verifyProductCost">
+    <configuration name="MobileListPage.verifyNameSortingMobilePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99_Ecom" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPage" />
+      <option name="METHOD_NAME" value="verifyNameSortingMobilePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorsEg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocatorsEg" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorsEg.relativeLocatorsExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocatorsEg" />
+      <option name="METHOD_NAME" value="relativeLocatorsExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocators.relativeLocatorsExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
+      <option name="METHOD_NAME" value="relativeLocatorsExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyProductCost.verifyProductCost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99_Ecom" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.VerifyProductCost" />
+      <option name="METHOD_NAME" value="verifyProductCost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.VerifyProductCost.verifyProductCost" />
+        <item itemvalue="TestNG.MobileListPage.verifyNameSortingMobilePage" />
+        <item itemvalue="TestNG.RelativeLocatorsEg" />
+        <item itemvalue="TestNG.RelativeLocatorsEg.relativeLocatorsExample" />
+        <item itemvalue="TestNG.RelativeLocators.relativeLocatorsExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://live.techpanda.org/index.php/mobile/sony-xperia.html" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="" />
+      <created>1771002401720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771002401720</updated>
+      <workItem from="1771002402894" duration="33000" />
+      <workItem from="1771002453835" duration="108000" />
+      <workItem from="1771002762176" duration="25099000" />
+      <workItem from="1772038595271" duration="234000" />
+      <workItem from="1772129132616" duration="3890000" />
+      <workItem from="1772306449264" duration="2830000" />
+      <workItem from="1772471431031" duration="10670000" />
+      <workItem from="1772984617239" duration="2807000" />
+      <workItem from="1773947208187" duration="6557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
