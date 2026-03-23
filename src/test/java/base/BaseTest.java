@@ -1,7 +1,7 @@
-package Guru99_Ecom.base;
+package base;
 
-import Guru99_Ecom.pageobjects.HomePage;
-import Guru99_Ecom.utils.ConfigReader;
+import pageobjects.HomePage;
+import utils.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

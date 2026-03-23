@@ -1,6 +1,6 @@
-package Guru99_Ecom.base;
+package base;
 
-import Guru99_Ecom.utils.BrowserUtils;
+import utils.BrowserUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

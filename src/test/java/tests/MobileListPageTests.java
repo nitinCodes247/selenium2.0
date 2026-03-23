@@ -1,8 +1,8 @@
-package Guru99_Ecom.tests;
+package tests;
 
-import Guru99_Ecom.pageobjects.MobilePage;
-import Guru99_Ecom.pageobjects.ProductDetailPage;
-import Guru99_Ecom.base.BaseTest;
+import pageobjects.MobilePage;
+import pageobjects.ProductDetailPage;
+import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

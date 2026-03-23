@@ -1,7 +1,7 @@
-package Guru99_Ecom.pageobjects;
+package pageobjects;
 
-import Guru99_Ecom.base.BasePage;
-import Guru99_Ecom.utils.ConfigReader;
+import base.BasePage;
+import utils.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

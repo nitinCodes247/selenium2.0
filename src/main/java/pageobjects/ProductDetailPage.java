@@ -1,6 +1,6 @@
-package Guru99_Ecom.pageobjects;
+package pageobjects;
 
-import Guru99_Ecom.base.BasePage;
+import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

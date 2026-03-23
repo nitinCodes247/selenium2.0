@@ -1,4 +1,4 @@
-package Guru99_Ecom.utils;
+package utils;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
