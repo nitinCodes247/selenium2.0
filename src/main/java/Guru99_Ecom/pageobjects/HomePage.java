@@ -1,19 +1,16 @@
 package Guru99_Ecom.pageobjects;
 
 import Guru99_Ecom.base.BasePage;
+import Guru99_Ecom.utils.ConfigReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage {
-    WebDriver driver;
-    String url = "http://live.techpanda.org/";
+    String url = ConfigReader.get("baseUrl");
 
     public HomePage(WebDriver driver){
         super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver,this);
     }
 
     @FindBy(css = "a[href*='mobile.html']")
@@ -24,7 +21,7 @@ public class HomePage extends BasePage {
     }
 
     public MobilePage goToMobilePage(){
-        mobilePage.click();
+        browserUtils.click(mobilePage);
         return new MobilePage(driver);
     }
 }

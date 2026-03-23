@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c25df2b-cb1a-40a9-acf4-f4d4c924813e" name="Changes" comment="Selenium Practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/base/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/MobilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/pageobjects/ProductDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guru99_Ecom/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ActionsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BrowserNavs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropDowns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EcomApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Frames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/CartPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/tests/CartPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/MobileListPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/tests/MobileListPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Guru99_Ecom/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LocatorsPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RelativeLocatorsEg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollingInSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumIntroduction.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +43,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -72,7 +95,7 @@
     "TestNG.SeleniumIntroduction.chromeInvoke.executor": "Run",
     "TestNG.SeleniumIntroduction.executor": "Run",
     "TestNG.VerifyProductCost.verifyProductCost.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "24thMarch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -87,17 +110,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CartPageTests.maxAllowedQuantity">
+  <component name="RunManager" selected="TestNG.MobileListPageTests">
     <configuration name="CartPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="PATTERN" value="Guru99_Ecom.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.CartPageTests" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.tests.CartPageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -109,12 +132,12 @@
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="PATTERN" value="Guru99_Ecom.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.CartPageTests" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.tests.CartPageTests" />
       <option name="METHOD_NAME" value="maxAllowedQuantity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -127,12 +150,12 @@
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="PATTERN" value="Guru99_Ecom.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.tests.MobileListPageTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -149,7 +172,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.tests.MobileListPageTests" />
       <option name="METHOD_NAME" value="verifyNameSortingMobilePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -162,12 +185,12 @@
       <module name="Selenium2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Guru99_Ecom.*" />
+          <option name="PATTERN" value="Guru99_Ecom.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Guru99_Ecom" />
-      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.MobileListPageTests" />
+      <option name="MAIN_CLASS_NAME" value="Guru99_Ecom.tests.MobileListPageTests" />
       <option name="METHOD_NAME" value="verifyProductCost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -178,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CartPageTests.maxAllowedQuantity" />
         <item itemvalue="TestNG.MobileListPageTests" />
+        <item itemvalue="TestNG.CartPageTests.maxAllowedQuantity" />
         <item itemvalue="TestNG.CartPageTests" />
         <item itemvalue="TestNG.MobileListPageTests.verifyNameSortingMobilePage" />
         <item itemvalue="TestNG.MobileListPageTests.verifyProductCost" />
@@ -212,7 +235,7 @@
       <workItem from="1772306449264" duration="2830000" />
       <workItem from="1772471431031" duration="10670000" />
       <workItem from="1772984617239" duration="2807000" />
-      <workItem from="1773947208187" duration="21099000" />
+      <workItem from="1773947208187" duration="30297000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium Practice">
       <option name="closed" value="true" />
@@ -230,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774201572011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Selenium Practice">
+      <option name="closed" value="true" />
+      <created>1774202805847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774202805847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

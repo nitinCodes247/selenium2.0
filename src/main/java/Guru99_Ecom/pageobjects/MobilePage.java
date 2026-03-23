@@ -5,20 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
 public class MobilePage extends BasePage {
-    WebDriver driver;
-    MobilePage(WebDriver driver){
+    public MobilePage(WebDriver driver){
         super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath = "(//select[@title='Sort By'])[1]")
-    WebElement sortByMenu;
+    By sortByMenu = By.xpath("(//select[@title='Sort By'])[1]");
+
 
     @FindBy(css = ".product-info")
     List<WebElement> productInfos;
@@ -28,18 +23,17 @@ public class MobilePage extends BasePage {
     By atcButtonLocator = By.cssSelector(".actions button");
 
     public void sotByOption(String option){
-        Select options = new Select(sortByMenu);
-        options.selectByVisibleText(option);
+        browserUtils.selectByVisibleText(sortByMenu, option);
     }
 
     public List<String> getAvailableProductNames(){
-        return productInfos.stream().map(e -> e.findElement(productNameLocator).getText()).toList();
+        return productInfos.stream().map(e -> browserUtils.getText(e.findElement(productNameLocator))).toList();
     }
 
     public String getProductPrice(String productName){
         for(WebElement e: productInfos){
             if(e.findElement(productNameLocator).getText().equalsIgnoreCase(productName)){
-                return e.findElement(productPlpPrice).getText();
+                return browserUtils.getText(e.findElement(productPlpPrice));
             }
         }
         throw new RuntimeException("Product Not Found: " + productName);

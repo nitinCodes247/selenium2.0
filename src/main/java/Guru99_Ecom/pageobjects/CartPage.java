@@ -5,16 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
 public class CartPage extends BasePage {
-    WebDriver driver;
-    CartPage(WebDriver driver){
+    public CartPage(WebDriver driver){
         super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 
     @FindBy(css = "td.product-cart-info")
@@ -23,18 +19,18 @@ public class CartPage extends BasePage {
     WebElement cartFooterSection;
 
     By productNameLocator = By.cssSelector(".product-name");
-    By qtyInput = By.xpath("following-sibling::td[@class='product-cart-actions']/input");
-    By qtyUpdate = By.xpath("following-sibling::td[@class='product-cart-actions']/button");
+    By qtyInput = By.xpath(".//following-sibling::td[@class='product-cart-actions']/input");
+    By qtyUpdate = By.xpath(".//following-sibling::td[@class='product-cart-actions']/button");
     By qtyErrorMessage = By.cssSelector(".item-msg");
     By emptyCart = By.id("empty_cart_button");
 
     public void updateQuantity(String productName, String qty){
         for(WebElement e: productInfos){
             if(e.findElement(productNameLocator).getText().equalsIgnoreCase(productName)){
-                e.findElement(qtyInput).click();
-                e.findElement(qtyInput).clear();
-                e.findElement(qtyInput).sendKeys(qty);
-                e.findElement(qtyUpdate).click();
+                WebElement inputQtyBox = e.findElement(qtyInput);
+                browserUtils.click(inputQtyBox);
+                browserUtils.type(inputQtyBox, qty);
+                browserUtils.click(e.findElement(qtyUpdate));
                 return;
             }
         }
@@ -44,14 +40,14 @@ public class CartPage extends BasePage {
     public String getQtyErrorMessage(String productName){
         for(WebElement e: productInfos){
             if(e.findElement(productNameLocator).getText().equalsIgnoreCase(productName)){
-                return e.findElement(qtyErrorMessage).getText();
+                return browserUtils.getText(e.findElement(qtyErrorMessage));
             }
         }
         throw new RuntimeException("Product Not available in Cart: "+productName);
     }
 
     public String emptyCart(){
-        cartFooterSection.findElement(emptyCart).click();
+        browserUtils.click(cartFooterSection.findElement(emptyCart));
         return getPageTitle();
     }
 
