@@ -53,7 +53,7 @@ public class BrowserUtils {
         element.sendKeys(text);
     }
     public String getText(By locator){
-        return driver.findElement(locator).getText();
+        return waitToAppear(locator).getText();
     }
     public void click(WebElement element){
         waitToBeClickable(element).click();
@@ -70,7 +70,7 @@ public class BrowserUtils {
         element.sendKeys(text);
     }
     public String getText(WebElement element){
-        return element.getText();
+        return waitToAppear(element).getText();
     }
 
     public void selectByVisibleText(By locator, String text){
